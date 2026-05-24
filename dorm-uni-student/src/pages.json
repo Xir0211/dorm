@@ -1,0 +1,126 @@
+{
+	"pages": [
+	  {
+		"path": "pages/index/index",
+		"style": {
+		  "navigationBarTitleText": "快乐星球"
+		}
+	  },
+	  {
+		"path": "pages/login/login",
+		"style": { 
+		  "navigationBarTitleText": "学生登录" 
+		}
+	  },
+	  {
+		"path": "pages/forget/forget",
+		"style": { 
+		  "navigationBarTitleText": "找回密码" 
+		}
+	  },
+	  {
+		"path": "pages/message/message",
+		"style": {
+		  "navigationBarTitleText": "消息中心"
+		}
+	  },
+	  {
+		"path": "pages/mine/mine",
+		"style": {
+		  "navigationBarTitleText": "我的"
+		}
+	  },
+	  {
+		"path": "pages/repair/add",
+		"style": { 
+		  "navigationBarTitleText": "报修申请" 
+		}
+	  },
+	  {
+		"path": "pages/leave/add",
+		"style": { 
+		  "navigationBarTitleText": "请假申请" 
+		}
+	  },
+	  {
+		"path": "pages/change/apply",
+		"style": { 
+		  "navigationBarTitleText": "申请调宿" 
+		}
+	  },
+	  {
+		"path": "pages/checkout/apply",
+		"style": { 
+		  "navigationBarTitleText": "申请退宿" 
+		}
+	  },
+	  {
+		"path": "pages/notice/detail",
+		"style": { 
+		  "navigationBarTitleText": "公告详情" 
+		}
+	  },
+	  {
+		"path": "pages/notice/list",
+		"style": { 
+		  "navigationBarTitleText": "公告列表" 
+		}
+	  },
+	  {
+		"path": "pages/mine/repair",
+		"style": { 
+		  "navigationBarTitleText": "我的报修" 
+		}
+	  },
+	  {
+		"path": "pages/mine/password",
+		"style": { 
+		  "navigationBarTitleText": "修改密码" 
+		}
+	  },
+	  {
+		"path": "pages/mine/dorm",
+		"style": { 
+		  "navigationBarTitleText": "我的宿舍" 
+		}
+	  },
+	  {
+		"path": "pages/mine/leave",
+		"style": { 
+		  "navigationBarTitleText": "我的请假" 
+		}
+	  }
+	],
+	"globalStyle": {
+	  "navigationBarTextStyle": "black",
+	  "navigationBarTitleText": "快乐星球",
+	  "navigationBarBackgroundColor": "#FFFFFF",
+	  "backgroundColor": "#F5F6FA"
+	},
+	"tabBar": {
+	  "color": "#999999",
+	  "selectedColor": "#1989fa",
+	  "borderStyle": "black",
+	  "backgroundColor": "#ffffff",
+	  "list": [
+		{
+		  "pagePath": "pages/index/index",
+		  "text": "首页",
+		  "iconPath": "static/tab/home.png",
+		  "selectedIconPath": "static/tab/home-active.png"
+		},
+		{
+		  "pagePath": "pages/message/message",
+		  "text": "消息",
+		  "iconPath": "static/tab/msg.png",
+		  "selectedIconPath": "static/tab/msg-active.png"
+		},
+		{
+		  "pagePath": "pages/mine/mine",
+		  "text": "我的",
+		  "iconPath": "static/tab/mine.png",
+		  "selectedIconPath": "static/tab/mine-active.png"
+		}
+	  ]
+	}
+  }

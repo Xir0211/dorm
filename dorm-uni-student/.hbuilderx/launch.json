@@ -1,0 +1,11 @@
+{
+    "version" : "1.0",
+    "configurations" : [
+        {
+            "customPlaygroundType" : "device",
+            "localRepoPath" : "C:/Users/xirzz/Desktop/OracleObject2/dorm-uni-student",
+            "playground" : "standard",
+            "type" : "uni-app:app-android"
+        }
+    ]
+}

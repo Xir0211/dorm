@@ -1,0 +1,22 @@
+# Java
+target/
+*.jar
+*.war
+*.class
+.idea/
+*.iml
+
+# Node
+node_modules/
+dist/
+
+# 环境配置
+application.properties
+.env
+.env.local
+
+# 日志
+*.log
+
+# 上传文件
+uploads/
